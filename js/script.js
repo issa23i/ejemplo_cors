@@ -29,7 +29,7 @@
  
    //accede primero a https://cors-anywhere.herokuapp.com/ o https://cors-anywhere.herokuapp.com/corsdemo para habilitarlo de forma temporal
  
-   fetch(corsAnywhere + imgURL, {
+   fetch(/**corsAnywhere + */imgURL, {
      method: "GET",
      headers: new Headers({
        "Content-Type": "application/json",
